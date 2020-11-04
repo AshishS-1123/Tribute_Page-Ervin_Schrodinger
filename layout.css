@@ -1,0 +1,209 @@
+
+/* DEFINE THE FONTS */
+
+@font-face
+{
+	font-family: "Sketchalot";
+	src: url("resources/Sketchalot.ttf?4.7.0")format("truetype");
+}
+@font-face
+{
+	font-family: "Ubuntu";
+	src: url("resources/Ubuntu-Regular.ttf?4.7.0")format("truetype");
+}
+@font-face
+{
+	font-family: "PT_Serif";
+	src: url("resources/PTSerif-Regular.ttf?4.7.0")format("truetype");
+}
+
+/* DEFINE STYLES FOR ALL ELEMENTS IN PAGE*/
+* {
+	box-sizing: border-box;
+}
+html {
+    width: 100%;
+    height: 100%;
+    font-size: calc(0.7 + 1vw);
+}
+
+#main {
+    background-image: url("resources/math_work.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}
+
+/* DEFINE STYLE FOR HEADER */
+
+#header {
+    width: 76.145833vw;
+    height: 7vw;
+    border-radius: 16px;
+    background-color: white;
+    align-self: center;
+    margin-top: 4.907%;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    width: 100%;
+    height: 50%;
+    margin: auto 0;
+    font-family: Sketchalot;
+    font-size: 2.2vw;
+    text-align: center;
+    color: #f3720d;
+}
+
+#sub-title {
+    font-family: Ubuntu;
+    font-size: 0.8333em;
+    background-color: red;
+    height: auto;
+}
+
+/* DEFINE STYLE FOR IMAGE AND BASIC INFORMATION SECTION */
+
+#img-div {
+    width: 76.14583%;
+    height: 61.2037%;
+    margin: 0 auto;
+    margin-top: 4.907%;
+    background-color: white;
+}
+
+#img-container {
+    height: 91.5279%;
+    width: 30%;
+    margin-top: 1.8%;
+    margin-left: 0.4%;
+    float: left;
+}
+
+#image {
+    width: 91%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    width: 60%;
+    height: 80.635%;
+    margin-right: 4.8563%;
+    margin-top: 5%;
+    float: right;
+}
+
+#img-heading {
+    text-align: center;
+    font-family: Ubuntu;
+}
+
+#img-body {
+    margin-top: 9%;
+    margin-bottom: 7%;
+    font-family: PT_Serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#link-div {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#tribute-link {
+    color: white;
+    font-size: 1.5em;
+}
+
+#tribute-info {
+    height: 140%;
+}
+/* DEFINE STYLE FOR INTRODUCTION SECTION */
+
+#intro {
+    background-color: white;
+    color: black;
+    font-family: PT_Serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 4.907%;
+    border-radius: 31px;
+    float: left;
+}
+
+#intro-heading {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#intro-text {
+    padding-bottom: 3%;
+}
+
+/* DEFINE HONORS ANS AWARDS SECTION */
+
+#honors {
+    background-color: white;
+    color: black;
+    font-family: PT_Serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 4.907%;
+    border-radius: 31px;
+    float: right;
+}
+
+#honors-heading {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#honors-text {
+    padding-bottom: 3%;
+}
+
+/* DEFINE FEILDS OF WORK SECTION */
+
+#feilds {
+    background-color: white;
+    color: black;
+    font-family: PT_Serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 4.907%;
+    border-radius: 31px;
+    float: left;
+    margin-bottom: 5%;
+}
+
+#feilds-heading {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.feild-col {
+    width: 30%;
+    height: 100%;
+    margin: 1.5%;
+    padding-bottom: 3%;
+}
+
+#feild-col-1 {
+    float: left;
+}
+
+#feild-col-2 {
+    float: left;
+}
+
+#feild-col-3 {
+    float: right;
+}
