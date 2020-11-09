@@ -43,7 +43,7 @@ html {
     border-radius: 16px;
     background-color: white;
     align-self: center;
-    margin-top: 4.907%;
+    margin-top: 2.907vw;
     display: flex;
     justify-content: center;
 }
@@ -87,6 +87,7 @@ html {
     width: 91%;
     height: auto;
     max-width: 100%;
+    max-height: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -102,13 +103,14 @@ html {
 #img-heading {
     text-align: center;
     font-family: Ubuntu;
+    font-size: 3.5vw;
 }
 
 #img-body {
-    margin-top: 9%;
+    margin-top: 7%;
     margin-bottom: 7%;
     font-family: PT_Serif;
-    font-size: 1.3em;
+    font-size: 1.3vw;
     text-align: center;
 }
 
@@ -120,7 +122,7 @@ html {
 
 #tribute-link {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.4vw;
 }
 
 #tribute-info {
@@ -132,7 +134,7 @@ html {
     background-color: white;
     color: black;
     font-family: PT_Serif;
-    font-size: 1.3em;
+    font-size: 1.3vw;
     text-align: center;
     margin-top: 4.907%;
     border-radius: 31px;
@@ -145,7 +147,7 @@ html {
 }
 
 #intro-text {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 
 /* DEFINE HONORS ANS AWARDS SECTION */
@@ -154,7 +156,7 @@ html {
     background-color: white;
     color: black;
     font-family: PT_Serif;
-    font-size: 1.3em;
+    font-size: 1.3vw;
     text-align: center;
     margin-top: 4.907%;
     border-radius: 31px;
@@ -167,7 +169,7 @@ html {
 }
 
 #honors-text {
-    padding-bottom: 3%;
+    padding-bottom: 5%;
 }
 
 /* DEFINE FEILDS OF WORK SECTION */
@@ -176,7 +178,7 @@ html {
     background-color: white;
     color: black;
     font-family: PT_Serif;
-    font-size: 1.3em;
+    font-size: 1.3vw;
     text-align: center;
     margin-top: 4.907%;
     border-radius: 31px;
@@ -186,14 +188,14 @@ html {
 
 #feilds-heading {
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 1.5%;
 }
 
 .feild-col {
     width: 30%;
     height: 100%;
     margin: 1.5%;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
 }
 
 #feild-col-1 {
