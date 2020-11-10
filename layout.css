@@ -230,8 +230,67 @@ html {
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
     #header {
-        background-color: green;
+        width: 90vw;
+        height: 9vw;
     }
+
+    #title {
+        font-size: 3vw;
+    }
+
+    #img-div {
+        width: 90vw;
+        height: 37.5vw;
+    }
+
+    #img-heading {
+        font-size: 4vw;
+    }
+
+    #img-body {
+        font-size: 1.6vw;
+        line-height: 3vw;
+        margin-bottom: 3%;
+        margin-top: 4%;
+    }
+
+    #tribute-link {
+        font-size: 2vw;
+        bottom: 5%;
+    }
+
+    #tribute-info {
+        height: 100vw;
+    }
+
+    #intro {
+        width: 90vw;
+    }
+
+    #intro-text {
+        font-size: 1.6vw;
+        line-height: 3vw;
+    }
+
+    #honors-heading {
+        font-size: 4vw;
+    }
+
+    #honors-text {
+        font-size: 1.6vw;
+        line-height: 3vw;
+    }
+
+    #feilds-heading {
+        font-size: 4vw;
+    }
+
+    .feild-col {
+        font-size: 1.6vw;
+        line-height: 3vw;
+    }
+
+
 }
 
 /* Desktop and Laptop */
