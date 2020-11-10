@@ -209,3 +209,31 @@ html {
 #feild-col-3 {
     float: right;
 }
+
+/* MEDIA QUERIES */
+
+/* Smartphones (portrait and landscape)*/
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    #header {
+        background-color: red;
+    }
+}
+
+/* iPads (portrait and landscape)*/
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+     #header {
+         background-color: green;
+     }
+}
+
+/* Desktop and Laptop */
+
+@media only screen and (min-width : 1224px){
+     #header {
+         background-color: blue;
+     }
+
+
+}
