@@ -68,8 +68,8 @@ html {
 /* DEFINE STYLE FOR IMAGE AND BASIC INFORMATION SECTION */
 
 #img-div {
-    width: 76.14583%;
-    height: 61.2037%;
+    width: 76.14583vw;
+    height: 32vw;
     margin: 0 auto;
     margin-top: 4.907%;
     background-color: white;
@@ -96,7 +96,7 @@ html {
     width: 60%;
     height: 80.635%;
     margin-right: 4.8563%;
-    margin-top: 5%;
+    margin-top: 4.5%;
     float: right;
 }
 
@@ -111,6 +111,7 @@ html {
     margin-bottom: 7%;
     font-family: PT_Serif;
     font-size: 1.3vw;
+    line-height: 170%;
     text-align: center;
 }
 
@@ -118,6 +119,7 @@ html {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    -bottom: -5%;
 }
 
 #tribute-link {
@@ -126,7 +128,7 @@ html {
 }
 
 #tribute-info {
-    height: 140%;
+    height: 75vw;
 }
 /* DEFINE STYLE FOR INTRODUCTION SECTION */
 
@@ -142,12 +144,14 @@ html {
 }
 
 #intro-heading {
+    font-size: 3vw;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
 #intro-text {
     padding-bottom: 5%;
+    line-height: 170%;
 }
 
 /* DEFINE HONORS ANS AWARDS SECTION */
@@ -170,6 +174,7 @@ html {
 
 #honors-text {
     padding-bottom: 5%;
+    line-height: 170%;
 }
 
 /* DEFINE FEILDS OF WORK SECTION */
@@ -195,7 +200,8 @@ html {
     width: 30%;
     height: 100%;
     margin: 1.5%;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
+    line-height: 170%;
 }
 
 #feild-col-1 {
@@ -223,17 +229,13 @@ html {
 /* iPads (portrait and landscape)*/
 
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
-     #header {
-         background-color: green;
-     }
+    #header {
+        background-color: green;
+    }
 }
 
 /* Desktop and Laptop */
 
 @media only screen and (min-width : 1224px){
-     #header {
-         background-color: blue;
-     }
-
 
 }
