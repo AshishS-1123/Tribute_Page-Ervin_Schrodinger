@@ -119,7 +119,6 @@ html {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    -bottom: -5%;
 }
 
 #tribute-link {
@@ -222,7 +221,101 @@ html {
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     #header {
-        background-color: red;
+        width: 90vw;
+        height: 21vw;
+        border-radius: 8px;
+        margin-top: 3%;
+    }
+
+    #title {
+        font-size: 6.1vw;
+    }
+
+    #img-div {
+        width: 90vw;
+        height: 225vw;
+        margin-top: 8%;
+    }
+
+    #img-container {
+        width: 100%;
+        height: auto;
+        padding-top: 3%;
+    }
+
+    #img-caption {
+        width: 100%;
+        height: 110vw;
+        padding: 0px;
+        margin: 0px;
+    }
+    #img-heading {
+        font-size: 8vw;
+        padding-top: 5%;
+    }
+
+    #img-body {
+        font-size: 4vw;
+    }
+
+    #tribute-link {
+        font-size: 4vw;
+    }
+
+    #tribute-info {
+        height:300vw;
+        padding-top: 5%;
+    }
+
+    #intro {
+        margin-top: 3%;
+        width: 90vw;
+        border-radius: 10px;
+        float: none;
+    }
+
+    #intro-heading {
+        font-size: 8vw;
+    }
+
+    #intro-text {
+        font-size: 4vw;
+    }
+
+    #honors {
+        width: 90vw;
+        border-radius: 10px;
+        float: none;
+        margin-top: 8%;
+    }
+
+    #honors-heading {
+        font-size: 8vw;
+    }
+
+    #honors-text {
+        font-size: 4vw;
+    }
+
+    #feilds {
+        width: 90vw;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 8%;
+        padding-bottom: 5%;
+    }
+
+    #feilds-heading {
+        font-size: 8vw;
+    }
+
+    .feild-col {
+        width: 100%;
+        margin: auto 0px;
+        padding-bottom: 0%;
+        float: none;
+        border-radius: 10px;
+        font-size: 4vw;
     }
 }
 
